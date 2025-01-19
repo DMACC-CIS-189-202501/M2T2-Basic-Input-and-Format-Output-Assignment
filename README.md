@@ -12,5 +12,6 @@
 * Prompt the user for the three scores, storing them in local variable or variables
   * You can keep separate variables for each score, or you keep a running total in one variable. 
 * Calculate the average using the stored inputs
+  * Please store the total of scores as `total` for a vartiable and `avg_scores` for the average scores.
 * Print the output, with last name followed by a comma and the first name followed by an integer age and then the average scores with 2 decimal places<br>Example Output:<br>`Rodriguez, Linda age: 21 average grade: 92.50'
 * Add a docstring to the top of average_scores.py explaining what your code is doing. Add comments where necessary

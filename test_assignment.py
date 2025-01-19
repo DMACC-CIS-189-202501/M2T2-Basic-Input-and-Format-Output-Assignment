@@ -61,7 +61,6 @@ def test_age():
 def test_total():
     tree = get_ast_tree('assignment.py')
     assert has_variable(tree, 'total'), "total variable is missing."
-    print("JOE THE TYPE IS:" + str(get_variable_type(tree, 'total')))
 
 def test_avg_score():
     tree = get_ast_tree('assignment.py')
